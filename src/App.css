@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.App {
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+  width: 1200px;
+  background-color: rgb(239, 239, 239);
+}
+.heading{
+  color: blue;
+  margin-bottom: 40px;
+}
+h1{
+  font-size: 60px;
+  text-decoration:underline;
+}
+.add-task{
+  background-color: red;
+  margin-bottom: 40px;
+}
+.field{
+  background-color: aqua;
+  width: 1000px;
+}
+button{
+  background-color: blue;
+  color: white;
+}
+button,.field{
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.break-line{
+  color: rgb(255, 255, 255);
+  width: 1150px;
+  margin: 0 auto;
+}
