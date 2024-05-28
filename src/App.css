@@ -4,40 +4,71 @@ padding: 0;
 box-sizing: border-box;
 }
 .App {
-  margin: auto;
-  padding-top: 50px;
   text-align: center;
-  width: 1200px;
-  background-color: rgb(239, 239, 239);
+  background-color: rgba(179, 66, 66, 0.479);
+  width: 100vw;
+}
+.list{
+  width: 600px;
+  padding-top: 40px;
+  margin:auto;
+  background-color: rgb(254, 185, 185);
+  height: 100vh;
 }
 .heading{
-  color: blue;
-  margin-bottom: 40px;
-}
-h1{
+  color: rgb(237, 72, 72);
+  margin-bottom: 80px;
   font-size: 60px;
-  text-decoration:underline;
-}
-.add-task{
-  background-color: red;
-  margin-bottom: 40px;
-}
-.field{
-  background-color: aqua;
-  width: 1000px;
+  text-decoration: underline;
 }
 button{
-  background-color: blue;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border:none;
+  cursor: pointer;
+  font-weight: bold;
   color: white;
+  transition: background-color 0.5s ease;
 }
-button,.field{
-  font-size: 20px;
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
+.add-button{
+  background-color: hsl(120, 72%, 43%);
 }
-.break-line{
-  color: rgb(255, 255, 255);
-  width: 1150px;
-  margin: 0 auto;
+.add-button:hover{
+  background-color: hsl(111, 83%, 27%);
+}
+.delete-button{
+  background-color: hsl(0, 78%, 50%);
+}
+.delete-button:hover{
+  background-color: hsl(0, 78%, 40%);
+}
+input[type="text"]{
+  font-size: 16px;
+  padding:6px;
+  border: 2px solid hsla(0, 0%, 70%, 0.707);
+  width: 400px;
+  margin-right: 10px;
+
+}
+
+ol{
+  margin-top: 50px;
+  list-style: none;
+}
+
+li{
+font-size: 25px;
+font-weight: bold;
+padding: 15px;
+background-color: hsla(0, 2%, 52%, 0.619);
+margin-bottom: 10px;
+border:3px solid hsla(0, 0%, 58%, 0.507);
+border-radius: 5px;
+display: flex;
+align-items: center;
+}
+
+.text{
+  flex: 1;
 }

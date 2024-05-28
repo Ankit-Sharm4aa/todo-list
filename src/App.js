@@ -1,14 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import heading from './components/heading';
-import addTask from './components/add-task';
+import Todolist from './components/Todolist';
 
 function App() {
   return (
-    <div className="App">
-      <div className='heading'>{heading}</div>
-      <div className='add-task'>{addTask}</div>
-      <hr className='break-line'/>
+    <div className='App'>
+      <Todolist/>
     </div>
   );
 }
