@@ -72,3 +72,9 @@ align-items: center;
 .text{
   flex: 1;
 }
+
+@media (max-width:600px){
+  .list{
+    width: 100%;
+  }
+}
